@@ -20,5 +20,6 @@ from ApiApplication import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("book/",views.BookApiView.as_view())
+    path("book/",views.BookApiView.as_view()),
+    path("product/",views.ProductApiView.as_view()),
 ]
